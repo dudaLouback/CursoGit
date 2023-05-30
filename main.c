@@ -1,15 +1,18 @@
 #include <stdio.H>
 
 void imprimirBob(){
-	printf("Bob");
-
+	printf("Eu sou Bob!\n");
+}
+ 
+void imprimirAlice(){
+	printf("eu sou Alice!\n");
 }
 
 int main(){
-	imprimirBob();
-	return 0;
 
-void imprimirAlice(){
-	printf("Alice");
+	imprimirBob();
+	
+	imprimirAlice();
+	return 0;
 	
 }
