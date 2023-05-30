@@ -8,5 +8,8 @@ void imprimirBob(){
 int main(){
 	imprimirBob();
 	return 0;
+
+void imprimirAlice(){
+	printf("Alice");
 	
 }
